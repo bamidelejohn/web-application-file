@@ -1,2 +1,21 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+int NumberOne = int.Parse(firstNumber);
+            Console.Write ("Enter firstNumber: ");
+            double result1 = Math.Sqrt(NumberOne);
+            view result = result1;
+            
+            int NumberTwo = int.Parse(secondNumber);
+            Console.Write ("Enter secondNumber: ");
+            double result2 = Math.Sqrt(NumberTwo);
+            view result = result2;
+
+            if (NumberOne == NumberTwo)
+            {
+                Console.WriteLine ("same square root, enter a new number! ");
+            }
+            else if(NumberOne && NumberTwo < 0)
+            {
+                Console.WriteLine ("cannot accept negative number, enter a new number!");
+            }
+        }
+    }
+}
